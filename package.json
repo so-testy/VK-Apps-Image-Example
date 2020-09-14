@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
+    "deploy": "vk-miniapps-deploy",
     "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@vkontakte/vk-miniapps-deploy": "0.0.21",
     "cross-env": "^5.2.1",
     "react-hot-loader": "^4.12.21",
     "react-scripts": "^3.4.1"
